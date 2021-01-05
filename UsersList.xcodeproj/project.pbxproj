@@ -13,6 +13,7 @@
 		B5B318F225A37C01005146B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B318F125A37C01005146B8 /* Assets.xcassets */; };
 		B5B318F525A37C01005146B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B318F325A37C01005146B8 /* LaunchScreen.storyboard */; };
 		B5B318FF25A37C82005146B8 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B318FE25A37C82005146B8 /* UsersVC.swift */; };
+		B5B3190325A4AAEE005146B8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3190225A4AAEE005146B8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B5B318F425A37C01005146B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B318F625A37C01005146B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B318FE25A37C82005146B8 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		B5B3190225A4AAEE005146B8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B5B318F125A37C01005146B8 /* Assets.xcassets */,
 				B5B318F325A37C01005146B8 /* LaunchScreen.storyboard */,
 				B5B318F625A37C01005146B8 /* Info.plist */,
+				B5B3190225A4AAEE005146B8 /* User.swift */,
 			);
 			path = UsersList;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B3190325A4AAEE005146B8 /* User.swift in Sources */,
 				B5B318E925A37BFF005146B8 /* AppDelegate.swift in Sources */,
 				B5B318EB25A37BFF005146B8 /* SceneDelegate.swift in Sources */,
 				B5B318FF25A37C82005146B8 /* UsersVC.swift in Sources */,
